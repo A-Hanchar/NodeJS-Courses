@@ -1,0 +1,19 @@
+{
+  "name": "vladilenminin-course",
+  "version": "1.0.0",
+  "description": "Node JS course of Vladilen Minin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodeJS"
+  ],
+  "author": "Artsiom Hanchar <artsiom.hanchar@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
