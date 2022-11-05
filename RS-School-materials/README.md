@@ -19,3 +19,5 @@ Node.js используется для создания веб-серверов
 3. [Стандартные потоки ввода/вывода](materials/node-stdio.md)
 4. [Аргументы командной строки](materials/node-argv.md)
 5. [Доступ к файловой системе](materials/node-fs-access.md)
+6. [Модули](materials/node-module.md)
+    - [модуль path](materials/modules/path.md)
