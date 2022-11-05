@@ -6,7 +6,7 @@
  *  Пример работы (пользовательский ввод начинается с `>`)
  */
 
-const { stdin, stdout } = process
+const { stdin, stdout, exit } = process
 
 const flag = process.argv[2]
 
@@ -22,22 +22,21 @@ stdout.write('Введите два числа?\n')
 
 stdin.on('data', data => {
   const dataAsString = Buffer.from(data, 'utf-8').toString()
-  const arrayOfNumbers = dataAsString.split(' ');
+  const arrayOfNumbers = dataAsString.split(' ')
 
   const [num1, num2] = arrayOfNumbers.map(numStr => Number(numStr))
 
-  if(flag === '-s') {
-    const sum = num1 + num2;
-    
-    stdout.write(`sum is ${sum}`);
+  if (flag === '-s') {
+    const sum = num1 + num2
+
+    stdout.write(`sum is ${sum}`)
   }
 
-  if(flag === '-m') {
-    const sum = num1 * num2;
+  if (flag === '-m') {
+    const sum = num1 * num2
 
-    stdout.write(`multi is ${sum}`);
+    stdout.write(`multi is ${sum}`)
   }
-  
-  
-  process.exit()
+
+  exit()
 })
