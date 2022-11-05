@@ -21,3 +21,4 @@ Node.js используется для создания веб-серверов
 5. [Доступ к файловой системе](materials/node-fs-access.md)
 6. [Модули](materials/node-module.md)
     - [модуль path](materials/modules/path.md)
+    - [модуль fs](materials/modules/fs.md)
