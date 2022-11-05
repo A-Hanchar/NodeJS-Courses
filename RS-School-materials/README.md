@@ -31,3 +31,7 @@ Node.js используется для создания веб-серверов
     - [поток чтения](materials/streams/stream-readable.md) 
     - [поток записи](materials/streams/stream-writable.md)
     - [объединение потоков](materials/streams/stream-pipes.md)
+9. [Проекты](materials/projects/projects.md)
+    - [приложение для заметок](materials/projects/notes.md)
+    - [приложение Таймер](materials/projects/timer.md)
+    - [приложение Github](materials/projects/github-app.md)
