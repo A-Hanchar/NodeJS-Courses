@@ -24,3 +24,5 @@ Node.js используется для создания веб-серверов
     - [модуль fs](materials/modules/fs.md)
     - [модуль os](materials/modules/os.md)
     - [модуль http](materials/modules/http.md)
+    - [модули, устанавливаемые через npm](materials/modules/npm-module.md)
+    - [создание собственных модулей](materials/modules/create-module.md)
