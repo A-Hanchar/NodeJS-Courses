@@ -15,3 +15,4 @@ Node.js используется для создания веб-серверов
 
 ## Содержание
 1. [Начало работы](materials/node-introduction.md)
+2. [Операции ввода/вывода](materials/node-io.md)
