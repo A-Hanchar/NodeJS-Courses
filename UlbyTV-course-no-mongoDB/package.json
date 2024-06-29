@@ -1,0 +1,24 @@
+{
+  "name": "js-ulby",
+  "version": "1.0.0",
+  "description": "practice (ulbi-tv)",
+  "main": "index.js",
+  "scripts": {
+    "start-process-cross-env": "cross-env PORT=5000 NODE_ENV=production node ./lessons/process-cross-env.js",
+    "start-process-env-file": "node ./lessons/process-env-file.js",
+    "start-file-system-task": "cross-env FILE_SYSTEM_TASK=\"qwiiqoj ijoijo\" node ./lessons/file-system-task.js",
+    "start-file-events": "cross-env MESSAGE=\"message 123\" node ./lessons/events.js",
+    "start-test-server": "nodemon index-1.js",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
